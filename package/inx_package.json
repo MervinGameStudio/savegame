@@ -1,0 +1,70 @@
+{
+  "$schema": "infernux.inxpackage",
+  "reference": "mervingamestudio/savegame",
+  "name": "Infernux SaveGame",
+  "version": "0.9.1",
+  "intro": "Write-through, slot-based key-value savegame library (inx.savegame).",
+  "intros": {
+    "zh-CN": "写透式槽位键值存档库，游戏侧经 inx.savegame 使用。"
+  },
+  "engine": ">=0.4,<0.5",
+  "pages": [
+    {
+      "id": "usage",
+      "title": "Usage",
+      "path": "plugin_pages/usage.md",
+      "format": "markdown"
+    },
+    {
+      "id": "changelog",
+      "title": "Changelog",
+      "path": "plugin_pages/changelog.md",
+      "format": "markdown"
+    }
+  ],
+  "control_guid": "6ef48950893040a9b35888a80e95929d",
+  "files": [
+    {
+      "logical_path": "runtime/savegame.py",
+      "guid": "afb9be10c39a4995833efeb9e509d6e4",
+      "role": "runtime",
+      "archive_path": "package/runtime/savegame.py",
+      "meta_archive_path": "package/runtime/savegame.py.meta"
+    },
+    {
+      "logical_path": "editor/savegame_browser_panel.py",
+      "guid": "84700a62f318496dad483028b7f542b6",
+      "role": "editor",
+      "archive_path": "package/editor/savegame_browser_panel.py",
+      "meta_archive_path": "package/editor/savegame_browser_panel.py.meta"
+    },
+    {
+      "logical_path": "editor/translations.json",
+      "guid": "4deef2d45f374d64816a3d196254676e",
+      "role": "editor",
+      "archive_path": "package/editor/translations.json",
+      "meta_archive_path": "package/editor/translations.json.meta"
+    },
+    {
+      "logical_path": "editor/savegame_operations.py",
+      "guid": "a28e0d0205f34778805f7717b3852bd3",
+      "role": "editor",
+      "archive_path": "package/editor/savegame_operations.py",
+      "meta_archive_path": "package/editor/savegame_operations.py.meta"
+    },
+    {
+      "logical_path": "plugin_pages/usage.md",
+      "guid": "7353cc17527e4d34825edc7014e29858",
+      "role": "control",
+      "archive_path": "package/plugin_pages/usage.md",
+      "meta_archive_path": "package/plugin_pages/usage.md.meta"
+    },
+    {
+      "logical_path": "requirements.txt",
+      "guid": "1a383ea3f7a24132893e986179aa4caf",
+      "role": "control",
+      "archive_path": "package/requirements.txt",
+      "meta_archive_path": "package/requirements.txt.meta"
+    }
+  ]
+}
